@@ -6,7 +6,7 @@ To determine whether the implemented security improvements successfully mitigate
 ## Validation Strategy
 The validation phase employed a combination of automated regression testing and manual verification to confirm the effectiveness of the remediations.
 
-- **Access-Control Retesting**: Re-evaluating previously vulnerable endpoints to ensure RBAC and object-level authorization strictly deny unauthorized actions.
+- **Access-Control Retesting**: Re-evaluating previously affected or security-relevant endpoints to ensure RBAC and object-level authorization strictly deny unauthorized actions.
 - **Bandit (SAST)**: Rerunning static analysis to confirm the removal of hardcoded secrets and insecure configurations.
 - **pip-audit (SCA)**: Rerunning dependency checks to ensure known vulnerabilities were successfully patched.
 - **OWASP ZAP (DAST)**: Scanning the updated local deployment to verify the presence of security headers and monitor for new dynamic vulnerabilities.

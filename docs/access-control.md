@@ -10,7 +10,7 @@ This assessment focused on user registration, session management, Role-Based Acc
 Manual testing and request inspection were used to evaluate unauthorized access attempts, role enforcement, administrator-only functionality, and protected resource access.
 
 ## Findings
-The assessment identified that account registration was publicly reachable. This weakness could allow unauthorized users to create accounts and gain authenticated access to the system.
+The assessment identified that account registration was publicly reachable. This weakness could allow an unauthorized user to create an account using another employee identity and gain authenticated access.
 
 **Initial Public Registration:**
 ![Public registration before remediation](../screenshots/03-public-registration-before.png)

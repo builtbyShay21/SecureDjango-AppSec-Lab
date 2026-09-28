@@ -26,7 +26,7 @@ Remediation efforts focused on hardening HTTP responses and configuration, notab
 The application was rescanned with OWASP ZAP to validate the configuration changes. 
 
 ## Remaining CSP Observations
-The original assessment documented that some CSP-related observations remained during later validation. This is expected as CSP often requires iterative tuning. Full mitigation may require:
+The original assessment documented that some CSP-related observations remained during later validation. The remaining CSP observations indicated that additional policy tuning or broader response coverage was still required. Full mitigation may require:
 - Broader response coverage.
 - Policy refinement.
 - Production validation.

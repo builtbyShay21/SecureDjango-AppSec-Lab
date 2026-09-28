@@ -40,7 +40,7 @@ graph TD
 | Area | Finding | Remediation | Validation |
 |---|---|---|---|
 | Public registration | Registration endpoint was publicly reachable. | Restricted registration to administrators only. | Access control testing |
-| Access control | Potential for unauthorized employee functionality access. | Applied Role-Based Access Control (RBAC) restrictions. | Access control testing |
+| Access control | Insufficient role enforcement on privileged functionality. | Applied Role-Based Access Control (RBAC) restrictions. | Access control testing |
 | Secrets/configuration | Sensitive configuration and secrets found in source files. | Migrated configuration to environment-based secret management. | SAST (Bandit) |
 | Debug information disclosure | Application disclosed internal information on errors. | Disabled debug mode and secured error configurations. | Manual validation |
 | Object authorization | Object-level authorization required validation. | Protected object access was included in authorization testing. | Manual validation |

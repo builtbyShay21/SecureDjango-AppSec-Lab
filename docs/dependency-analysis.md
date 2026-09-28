@@ -16,7 +16,7 @@ The initial dependency assessment identified known vulnerabilities in the tested
 ![pip-audit before remediation](../screenshots/11-pip-audit-before.png)
 
 ## Dependency Upgrades
-Vulnerable dependencies were updated to their secure versions as recommended by the security advisory data.
+Vulnerable dependencies were updated to versions that were not reported as vulnerable by the subsequent pip-audit scan.
 
 ## Post-Remediation Scan
 The post-remediation pip-audit scan reported no known vulnerabilities in the tested dependency set.
