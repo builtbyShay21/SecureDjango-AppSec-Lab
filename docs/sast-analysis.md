@@ -18,7 +18,7 @@ The initial scan identified findings centered around security-sensitive configur
 ![Bandit before remediation](../screenshots/09-bandit-before.png)
 
 ## Remediation
-Configuration secrets were extracted from the codebase and migrated to environment variables (e.g., using `python-dotenv`).
+Configuration secrets were extracted from the codebase and migrated to environment variables.
 
 ## Post-Remediation Validation
 Bandit reported no remaining issues in the post-remediation scan.

@@ -69,6 +69,10 @@ Burp Suite was utilized for manual web security validation, intercepting web req
 ### Access Control (RBAC Denial)
 ![RBAC / 403 denial](screenshots/04-rbac-403-denied.png)
 
+### Static Analysis Before & After
+![Bandit before remediation](screenshots/09-bandit-before.png)
+![Bandit after remediation](screenshots/10-bandit-after.png)
+
 ### Automated Security Pipeline
 ![final automated security pipeline](screenshots/15-security-pipeline-final.png)
 

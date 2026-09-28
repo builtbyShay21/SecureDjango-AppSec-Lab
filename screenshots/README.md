@@ -8,7 +8,7 @@
 | 04-rbac-403-denied.png | Access Control | RBAC enforcement denying unauthorized employee access (403). |
 | 05-admin-registration-access.png | Access Control | Restricted registration functionality accessible only to administrators. |
 | 06-debug-information-disclosure.png | Configuration | Initial application debug information disclosure. |
-| 07-object-authorization-404.png | Access Control | Object-level authorization enforcement and 404 behavior. |
+| 07-object-authorization-404.png | Access Control | Object-level authorization validation and safe 404 behavior during protected resource testing. |
 | 08-csp-header-after.png | Configuration | Validated CSP and security headers post-hardening. |
 | 09-bandit-before.png | SAST | Bandit static analysis initial findings. |
 | 10-bandit-after.png | SAST | Bandit post-remediation scan with no remaining issues. |

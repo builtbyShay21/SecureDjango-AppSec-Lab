@@ -7,7 +7,7 @@ To evaluate and enforce strict authentication and authorization boundaries withi
 This assessment focused on user registration, session management, Role-Based Access Control (RBAC), and server-side authorization enforcement for both Employees and Administrators.
 
 ## Assessment Approach
-Manual testing and request interception were utilized to evaluate how the application handled unauthorized access attempts, vertical privilege escalation, and unauthenticated state management.
+Manual testing and request inspection were used to evaluate unauthorized access attempts, role enforcement, administrator-only functionality, and protected resource access.
 
 ## Findings
 The assessment identified that account registration was publicly reachable. This weakness could allow unauthorized users to create accounts and gain authenticated access to the system.
@@ -24,7 +24,7 @@ To enforce least privilege:
 - **Object-Level Authorization:** Protected object access was included in authorization testing to ensure appropriate denial behavior.
 
 ## Validation
-Validation confirmed that authentication (verifying user identity) and authorization (verifying permissions) were functioning correctly server-side.
+Validation demonstrated server-side enforcement of the tested authentication and authorization controls.
 
 **Administrator-Only Registration:**
 ![Administrator registration access](../screenshots/05-admin-registration-access.png)
@@ -33,6 +33,6 @@ Validation confirmed that authentication (verifying user identity) and authoriza
 Unauthorized employees attempting to access privileged functionality were successfully denied (HTTP 403 Forbidden).
 ![RBAC / 403 denial](../screenshots/04-rbac-403-denied.png)
 
-**Object-Level Authorization Enforcement:**
+**Object-Level Authorization Validation:**
 Attempts to access unauthorized objects resulted in appropriate denial behavior (HTTP 404/403).
 ![Object authorization 404](../screenshots/07-object-authorization-404.png)

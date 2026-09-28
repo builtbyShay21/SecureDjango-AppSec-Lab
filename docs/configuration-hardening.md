@@ -33,4 +33,4 @@ Post-remediation validation demonstrated the successful application of secure co
 ![CSP/security-header validation](../screenshots/08-csp-header-after.png)
 
 ### Limitations
-Because the testing environment utilized local HTTP, HTTPS-dependent controls (such as Secure/HttpOnly cookie attributes relying on TLS) could not be fully validated. A remaining deployment/security warning requires validation under a real HTTPS deployment.
+Because the testing environment used local HTTP, HTTPS-dependent controls such as the Secure cookie attribute could not be fully validated. HttpOnly and other cookie/security settings were reviewed separately where applicable. A remaining deployment/security warning requires validation under a real HTTPS deployment.
