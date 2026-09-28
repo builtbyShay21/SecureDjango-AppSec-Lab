@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.sqlite3
+*.log
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+security-artifacts/raw/
+*.pcap
+*.pcapng
