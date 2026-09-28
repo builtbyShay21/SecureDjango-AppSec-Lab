@@ -25,14 +25,14 @@ The original Employee Management System was not developed by me. My work focused
 
 ```mermaid
 graph TD
-    A[Threat Modelling] --> B[Security Assessment]
-    B --> C[Access Control & Configuration Hardening]
-    C --> D[Static Analysis (Bandit)]
-    D --> E[Dependency Analysis (pip-audit)]
-    E --> F[Dynamic Testing (OWASP ZAP)]
-    F --> G[Manual Validation (Burp Suite)]
-    G --> H[Regression Testing]
-    H --> I[Security Validation]
+    A["Threat Modelling"] --> B["Security Assessment"]
+    B --> C["Access Control & Configuration Hardening"]
+    C --> D["Static Analysis (Bandit)"]
+    D --> E["Dependency Analysis (pip-audit)"]
+    E --> F["Dynamic Testing (OWASP ZAP)"]
+    F --> G["Manual Validation (Burp Suite)"]
+    G --> H["Regression Testing"]
+    H --> I["Security Validation"]
 ```
 
 ## Selected Findings & Remediation
